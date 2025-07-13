@@ -19,9 +19,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              BMM Creations
-            </div>
+            <img 
+              src="/lovable-uploads/f79393eb-0f74-46dd-bd7c-f662b2fbcb54.png" 
+              alt="BMM Creations" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

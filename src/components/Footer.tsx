@@ -17,9 +17,11 @@ const Footer = () => {
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-              BMM Creations
-            </div>
+            <img 
+              src="/lovable-uploads/f79393eb-0f74-46dd-bd7c-f662b2fbcb54.png" 
+              alt="BMM Creations" 
+              className="h-12 w-auto mb-4"
+            />
             <p className="text-background/80 mb-6 max-w-md leading-relaxed">
               We create stunning digital experiences that drive results. 
               From web design to mobile apps, we bring your vision to life.
